@@ -6,7 +6,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {};
-    axios.get(process.env.getRandomMonkeyEndpoint).then((response) => {
+    axios.get(process.env.REACT_APP_GET_RANDOM_MONKEY_ENDPOINT).then((response) => {
       console.log(response)
       this.setState({
         gifUrl: response.data.url

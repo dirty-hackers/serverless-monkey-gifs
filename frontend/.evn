@@ -1,2 +1,2 @@
 #URL of the deployed lambda function
-getRandomMonkeyEndpoint=
+REACT_APP_GET_RANDOM_MONKEY_ENDPOINT=
